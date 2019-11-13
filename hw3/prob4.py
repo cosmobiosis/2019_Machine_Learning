@@ -3,7 +3,7 @@ from sklearn import linear_model
 import pandas as pd
 from sklearn import svm, datasets
 from sklearn.multiclass import OneVsRestClassifier
-from utility_funcs import *
+from prob_utility_funcs import *
 
 df = pd.read_excel('ecs171.dataset.xlsx')
 df = pd.DataFrame(df)
